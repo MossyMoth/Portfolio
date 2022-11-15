@@ -41,7 +41,7 @@ body[data-nav="true"] > nav > #nav-links {
 
 
 main {
-    background-image: url(./img/Background-image.jpg);
+    background-image: url(../img/Background-image.jpg);
     background-size: cover;
     background-position: center 0%; 
     height: 100vh;
