@@ -43,12 +43,13 @@ body[data-nav="true"] > nav > #nav-links {
 main {
     background-image: url(../img/Background-image.jpg);
     background-size: cover;
-    background-position: center 0%; 
+    background-position: center 0%;
     height: 100vh;
     width: 100vw;
     position: relative;
     z-index: 2;
     transition: ease 2s;
+    margin: auto;
 }
 
 #nav-toggle {
@@ -138,10 +139,6 @@ ul {
     list-style-type: none;
 }
 
-content {
-    margin: auto;
-}
-
 nav {
     height: 50vh;
     width: 100%;
@@ -152,6 +149,7 @@ nav {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    background-attachment: fixed;
 }
 
 nav a {
@@ -169,6 +167,33 @@ nav a:hover {
 a {
     color: #f8bc00;
     text-decoration: none;
+}
+
+.gallery {
+    height: fit-content;
+    margin: auto;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+#CLE1, #CLE2 {
+    width: 25vw;
+    height: 100%;
+    margin: 2vw;
+    background-color: white;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: 70%;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
 }
 
 form {
